@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.st{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(eventbg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.nav{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav li
+{
+    display: inline-block;
+}
+
+.nav li a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 10px;
+    font-size: 18px;
+}
+
+.nav li a:hover{
+    background: #fff;
+    color: #333;
+}
+.logo img{
+    width: 80px;
+    float: left;
+    height: auto;
+    margin-left: -8%;
+    
+}
+.heading
+{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.heading h1
+{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.heading a
+{
+    border: 1px solid #fff;
+    padding: 8px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+.heading a:hover{
+    background: linen;
+    color: #000;
+}
+.Schedule
+{
+    width: 100%;
+    height: 100vh;
+    background:  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(eventbg2.jpg);
+    background-size: cover;
+}
+.leftbox
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+}
+section .leftbox .content
+{
+    color: linen;
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    transition: .5s;
+}
+section .leftbox .content:hover
+{
+    background: #e91e63;
+}
+section .leftbox .content h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+section .leftbox .content p
+{
+    margin: 10px 0 0;
+    padding: 0;
+}
+section .event
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    float: right;
+    box-sizing: border-box; 
+}
+section .event ul
+{
+    position: absolute;
+    top: 30%;
+    transform: translateY(-30%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+section .event ul li
+{
+    list-style: none;
+    background: #fff;
+    box-sizing: border-box;
+    height: 200px;
+}
+section .event ul li .time
+{
+    position: relative;
+    padding: 20px;
+    background: #262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition: .5s;
+}
+section .event ul li:hover .time
+{
+    background: #e91e63;
+}
+
+section .event ul li .time h2
+{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+  
+}
+section .event ul li .time h2 span
+{
+    font-size: 30px;
+
+}
+section .event ul li .detail
+{
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+section .event ul li .detail h3
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+section .event ul li .detail p
+{
+    position: relative;
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+section .event ul li .detail a
+{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    font-size: 18px;
+    transition: .5s;
+    float: left;
+}
+section .event ul li .detail a:hover{
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
+.Our-Dancer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background: #161623;
+    min-height: 100vh;
+    background:  linear-gradient(rgba(68, 81, 139, 0.6),rgba(87, 88, 168, 0.6)),url(eventbg3.jpg);
+    background-size: cover; 
+    position: relative;
+}
+.dancer{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.dancer .card{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(9px);
+
+}
+.dancer.card.our{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+.dancer .card .our .pic{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    overflow: hidden;
+    border: 10px solid rgba(0, 0, 0, 0.25);
+}   
+.dancer .card .our .pic img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} 
+.dancer .card .our .det h2
+{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+.dancer .card .our .det h2 spam{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+section.contact-us
+{
+    background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+    url(eventbg4.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.contact-us .new{
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 330%;
+    left: 30%;
+    transform: translate(-18%,-30%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+}
+.contact-us .new h1
+{
+    margin-top: 0;
+    font-weight: 200;
+
+}
+.data{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 7px;
+}
+.data label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.data input,.data textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 15px;
+    margin-top: 6px;
+}
+.bton{
+    display: block;
+    background: blue;
+    cursor: pointer;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+.bton:hover{
+    background: #e91e63;
+    color: #fff;
+}
