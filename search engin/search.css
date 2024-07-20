@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 150px;
+    background-color: #000;
+    font-family: sans-serif
+}
+.main{
+    width: 60%;
+    margin: auto;
+}
+.main input, button{
+    width: 75%;
+    border-right: 0px;
+    font-size: 18px;
+    padding: 14px;
+    background: transparent;
+    color: white;
+ 
+}
+.main button{
+    width: 25%;
+    background: #eee;
+    color: black;
+    float: right;
+    border-left: 0px;
+}
+.main button:hover{
+    background: red;
+    cursor: pointer;
+    
+}
+.main input:hover{
+    opacity: .8;
+    cursor: pointer;
+    
+}
