@@ -1,0 +1,9 @@
+#borderimage{
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image-source: url(clg.jpg);
+    border-image-repeat: round;
+    border-image-width: 10px;
+    border-image-slice: 30;
+    
+}
