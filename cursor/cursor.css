@@ -1,0 +1,127 @@
+body{
+    width: 70%;
+    height: 0;
+    text-align: center;
+}
+div{
+    width: 43%;
+    float: left;
+    height: 200px;
+    margin: 20px;
+    border: 2px solid #ccc;
+}
+div.one{
+    border: 3px solid red;
+    cursor: no-drop;
+}
+div.two{
+    border: 3px solid green;
+    cursor: wait;
+}
+div.three{
+    border: 3px solid rgb(0, 4, 255);
+    cursor: url(inf4.jpg), pointer;
+}
+div.four{
+    border: 3px solid rgb(71, 20, 87);
+    cursor: all-scroll;
+}
+div.five{
+    border: 3px solid rgb(233, 47, 162);
+    cursor: alias;
+}
+div.six{
+    border: 3px solid rgb(55, 90, 39);
+    cursor: cell;
+}
+div.seven{
+    border: 3px solid rgb(204, 201, 53);
+    cursor: context-menu;
+
+}
+div.eight{
+    border: 3px solid rgb(194, 99, 21);
+    cursor: col-resize;
+}
+div.nine{
+    border: 3px solid rgb(65, 140, 163);
+    cursor: copy;
+}
+div.ten{
+    border: 3px solid rgb(95, 167, 157);
+    cursor: crosshair;
+}
+div.eleven{
+    border: 3px solid rgb(213, 233, 122);
+    cursor: default;
+}
+div.twelve{
+    border: 3px solid red;
+    cursor: e-resize;
+}
+div.thirteen{
+    border: 3px solid green;
+    cursor: ew-resize;
+    
+}
+div.fourteen{
+    border: 3px solid rgb(0, 4, 255);
+    cursor: grab;
+    
+}
+div.fifteen{
+    border: 3px solid rgb(71, 20, 87);
+    cursor: grabbing;
+
+}
+div.sixteen{
+    border: 3px solid rgb(233, 47, 162);
+    cursor: help;
+
+}
+div.seventeen{
+    border: 3px solid rgb(55, 90, 39);
+    cursor: move;
+
+}
+div.eighteen{
+    border: 3px solid rgb(204, 201, 53);
+    cursor: n-resize;
+
+}
+div.nineteen{
+    border: 3px solid rgb(194, 99, 21);
+    cursor: ne-resize;
+}
+div.twenty{
+    border: 3px solid rgb(65, 140, 163);
+    cursor: nesw-resize;
+}
+div.twentyone{
+    border: 3px solid rgb(95, 167, 157);
+    cursor: ns-resize;
+}
+div.twentytwo{
+    border: 3px solid rgb(213, 233, 122);
+    cursor: nw-resize;
+}
+div.twenty-three{
+    border: 3px solid rgb(213, 233, 122);
+    cursor: nwse-resize;
+}
+div.twenty-three{
+    border: 3px solid rgb(213, 233, 122);
+    cursor: none;
+}
+div.twenty-four{
+    border: 3px solid rgb(213, 233, 122);
+    cursor: not-allowed;
+}
+div.twenty-five{
+    border: 3px solid rgb(213, 233, 122);
+    cursor: pointer;
+}
+div.twenty-six{
+    border: 3px solid rgb(213, 233, 122);
+    cursor: progress;
+}
